@@ -1,0 +1,735 @@
+@media(max-width:480px)
+{
+.navbar
+{
+    height: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+}
+.navbarcontainer
+{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo
+{
+    display: flex;
+    flex-direction: column;
+}
+.logo svg
+{   
+    height: 40px;
+    width: 40px;
+}
+.navigetion ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.navigetion li
+{
+    margin: 15px;
+    list-style: none;
+}
+.navigetion li a
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+.navigetion li:hover a
+{
+    color: rgb(162,96,40);
+}
+.banner
+{
+    width: 100%;
+}
+.bannercontainer
+{
+    height: 850px;
+    width: 90%;
+    margin: auto;
+    background-image: url('images/image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+p
+{
+    font-size: 72px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+}
+button
+{
+    height: 40px;
+    width: 100px;
+    position: relative;
+    top: 50%;
+    left: 17%;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.leading
+{
+    margin-top: 100px;
+    width: 100%;
+}
+.leadincontainer
+{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+.leadincontainer .image
+{
+    width: 45%;
+    height: 800px;
+    background-image: url('images/image2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.letter 
+{
+  margin-left: 300px;
+}
+
+.letter h1
+{
+    font-size: 40px;
+}
+.letter p
+{
+    font-size: 15px;
+    color: black;
+    top: 125%;
+    left: 61%;
+}
+.letter  button
+{
+    height: 40px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 90px;
+}
+.free
+{
+    width: 100%;
+}
+.free h1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    
+}
+.freecontainer
+{
+    height: 530px;
+    width:100%;
+}
+.freecontainer .free2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.easy, .Consultations, .Service, .Insured
+{
+    height: 242px;
+    width: 24%;
+}
+.easy h3, .Consultations h3, .Service h3, .Insured h3
+{
+    color: rgb(162, 96, 40);
+    text-align: center;
+    margin-top: 60px;
+    font-size: 22px;
+}
+.free2 .easy p,.free2 .Consultations p,.free2 .Service p,.free2 .Insured p
+{
+    color: black;
+    position: absolute;
+    top: 220%;
+    left: 150px;
+    text-align: center ;
+    font-size: 15px;
+}
+.free2 .Consultations p
+{
+    position: absolute;
+    left: 600px;
+}
+.free2 .Service p
+{
+    position: absolute;
+    left: 58%;
+}
+.free2 .Insured p
+{
+    position: absolute;
+    left: 83%;
+}
+.image h1
+{
+    margin-top: -250px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.images
+{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.images h1
+{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imageee
+{
+    width: 90%;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imageee img
+{
+    height: 748px;
+    width: 555px;
+}
+.main
+{
+    width: 100%;
+}
+.main button
+{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    transition: 0.7s;
+}
+.main :hover{
+    background-color: rgb(162, 96, 40);
+}
+.images .main button
+{
+    margin-top: -23px;
+    margin-left: 28%;
+}
+.images .main
+{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 300px;
+}
+.customer
+{
+    width: 100%;
+
+}
+.customercontainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    height: 550px;
+}
+.q1,.q2,.q3
+{
+    width: 32%;
+}
+.customer h1
+{
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+.customercontainer p
+{
+    width: 60%;
+    position: relative;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    top: -150px;
+    text-align: justify;
+
+}
+.q1 svg,.q2 svg,.q3 svg
+{
+    position: relative;
+    top: -170px;
+    left: 100px;
+}
+.q1 span,.q2 span,.q3 span
+{
+    position: relative;
+    top: -120px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(162,96,40);
+}
+.name
+{
+    width: 100%;
+    background-color: black;
+}
+.namecontainer
+{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.discuss h1
+{
+    color: white;
+
+}
+ .discuss p
+ {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom:-50px;
+    left: -3px;
+ }
+ label
+{
+    color: white;
+    font-size: 15px;
+    width: 50%;
+}
+.address
+{
+    display: flex;
+    flex-direction: column;
+
+}
+input
+{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.contact .address button
+{
+    margin-top: 50px;
+    margin-left: -80px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+.footer
+{
+    width: 100%;
+}
+.footercontainer
+{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+@media(max-width:768px)
+{
+.navbar
+{
+    height: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+}
+.navbarcontainer
+{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo
+{
+    display: flex;
+}
+.logo svg
+{   
+    height: 40px;
+    width: 40px;
+}
+.navigetion ul
+{
+    display: flex;
+}
+.navigetion li
+{
+    margin: 15px;
+    list-style: none;
+}
+.navigetion li a
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+.navigetion li:hover a
+{
+    color: rgb(162,96,40);
+}
+.banner
+{
+    width: 100%;
+}
+.bannercontainer
+{
+    height: 850px;
+    width: 90%;
+    margin: auto;
+    background-image: url('images/image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+p
+{
+    font-size: 72px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+}
+button
+{
+    height: 40px;
+    width: 183px;
+    position: relative;
+    top: 50%;
+    left: 17%;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.leading
+{
+    margin-top: 100px;
+    width: 100%;
+}
+.leadincontainer
+{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+.leadincontainer .image
+{
+    width: 45%;
+    height: 800px;
+    background-image: url('images/image2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.letter 
+{
+  margin-left: 300px;
+}
+
+.letter h1
+{
+    font-size: 40px;
+}
+.letter p
+{
+    font-size: 15px;
+    color: black;
+    top: 125%;
+    left: 61%;
+}
+.letter  button
+{
+    height: 40px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 90px;
+}
+.free
+{
+    width: 100%;
+}
+.free h1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    
+}
+.freecontainer
+{
+    height: 530px;
+    width:100%;
+}
+.freecontainer .free2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.easy, .Consultations, .Service, .Insured
+{
+    height: 242px;
+    width: 24%;
+}
+.easy h3, .Consultations h3, .Service h3, .Insured h3
+{
+    color: rgb(162, 96, 40);
+    text-align: center;
+    margin-top: 60px;
+    font-size: 22px;
+}
+.free2 .easy p,.free2 .Consultations p,.free2 .Service p,.free2 .Insured p
+{
+    color: black;
+    position: absolute;
+    top: 220%;
+    left: 150px;
+    text-align: center ;
+    font-size: 15px;
+}
+.free2 .Consultations p
+{
+    position: absolute;
+    left: 600px;
+}
+.free2 .Service p
+{
+    position: absolute;
+    left: 58%;
+}
+.free2 .Insured p
+{
+    position: absolute;
+    left: 83%;
+}
+.image h1
+{
+    margin-top: -250px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.images
+{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.images h1
+{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imageee
+{
+    width: 90%;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imageee img
+{
+    height: 748px;
+    width: 555px;
+}
+.main
+{
+    width: 100%;
+}
+.main button
+{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    transition: 0.7s;
+}
+.main :hover{
+    background-color: rgb(162, 96, 40);
+}
+.images .main button
+{
+    margin-top: -23px;
+    margin-left: 28%;
+}
+.images .main
+{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 300px;
+}
+.customer
+{
+    width: 100%;
+
+}
+.customercontainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    height: 550px;
+}
+.q1,.q2,.q3
+{
+    width: 32%;
+}
+.customer h1
+{
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+.customercontainer p
+{
+    width: 60%;
+    position: relative;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    top: -150px;
+    text-align: justify;
+
+}
+.q1 svg,.q2 svg,.q3 svg
+{
+    position: relative;
+    top: -170px;
+    left: 100px;
+}
+.q1 span,.q2 span,.q3 span
+{
+    position: relative;
+    top: -120px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(162,96,40);
+}
+.name
+{
+    width: 100%;
+    background-color: black;
+}
+.namecontainer
+{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.discuss h1
+{
+    color: white;
+
+}
+ .discuss p
+ {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom:-50px;
+    left: -3px;
+ }
+ label
+{
+    color: white;
+    font-size: 15px;
+    width: 50%;
+}
+.address
+{
+    display: flex;
+    flex-direction: column;
+
+}
+input
+{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.contact .address button
+{
+    margin-top: 50px;
+    margin-left: -80px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+.footer
+{
+    width: 100%;
+}
+.footercontainer
+{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+}
