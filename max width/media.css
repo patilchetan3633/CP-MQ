@@ -1,0 +1,35 @@
+@media (max-width:1024px)
+{
+    .gallerycontiner
+    {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .gallerycontiner img
+    {
+        height: 250px;
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:650px)
+{
+    .gallerycontiner
+    {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .gallerycontiner img
+    {
+        height: 250px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
